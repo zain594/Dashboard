@@ -4,7 +4,7 @@ import altair as alt
 import os
 
 # Load the data
-df = pd.read_csv("floor_plan_comparisons.csv")
+df = pd.read_csv('floor_plan_comparisons.csv')
 
 # Sidebar filters
 st.sidebar.title("🏢 Filter Floor Plans")
